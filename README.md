@@ -1,4 +1,4 @@
-# Terraform AWS VPC2 Module
+# Terraform AWS VPC2
 
 This Terraform template for creating a VPC2 (see below scheme) with public and private subnets across multiple availability zones in AWS. It also creates an Egress-only Internet Gateway and a NAT Gateway for the private subnets.
 
