@@ -1,4 +1,3 @@
-#Define output values
 output "vpc_id" {
     description = "The ID of the VPC created"
     value = aws_vpc.this.id
