@@ -1,4 +1,3 @@
-# This block specifies the required providers, in this case only AWS
 terraform {
     required_providers {
         aws = {
@@ -8,7 +7,7 @@ terraform {
     }
 }
 
-# This block defines the AWS provider configuration
+
 provider "aws" {
     region = "eu-north-1"
 

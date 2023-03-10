@@ -1,4 +1,3 @@
-# Declare input variables
 variable "vpc_cidr" {
     description = "CIDR block for IPv4"
     type        = string
